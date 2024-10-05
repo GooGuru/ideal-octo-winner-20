@@ -7,4 +7,7 @@ export default defineConfig({
     port: 3001,
     open: true,  // Automatically opens the browser
   },
+  build: {
+    outDir: 'build', // Output the build files to 'build' directory
+  }
 });
