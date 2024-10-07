@@ -8,6 +8,6 @@ export default defineConfig({
     open: true,  // Automatically opens the browser
   },
   build: {
-    outDir: 'build', // Output the build files to 'build' directory
+    outDir: 'dist',
   }
 });
